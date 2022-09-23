@@ -1,4 +1,7 @@
 # Definició de classes
+SEPARADOR = ":"
+
+
 class UnitatFormativa:
     nom = None
     qualificacio = None
@@ -49,10 +52,10 @@ inicialitzar_modul_professional()
 
 
 def mostrar_model_professional():
-    print(uf1.nom, ":", uf1.qualificacio)
-    print(uf2.nom, ":", uf2.qualificacio)
-    print(uf3.nom, ":", uf3.qualificacio)
-    print(mp5.nom, ":", mp5.get_Qualificacio())
+    print(uf1.nom, SEPARADOR, uf1.qualificacio)
+    print(uf2.nom, SEPARADOR, uf2.qualificacio)
+    print(uf3.nom, SEPARADOR, uf3.qualificacio)
+    print(mp5.nom, SEPARADOR, mp5.get_Qualificacio())
 
 
 mostrar_model_professional()
